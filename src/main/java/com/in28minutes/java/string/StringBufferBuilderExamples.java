@@ -28,6 +28,5 @@ public class StringBufferBuilderExamples {
 		// This allows a concept called method chaining.
 		StringBuilder sb3 = new StringBuilder("abcdefgh");
 		System.out.println(sb3.reverse().delete(5, 6).insert(3, "---"));// hgf---edba
-
 	}
 }

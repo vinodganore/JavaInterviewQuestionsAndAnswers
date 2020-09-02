@@ -10,8 +10,11 @@ package com.in28minutes.java.variables;
 //RULE3	:If local variables are used before initialization, 
 //it would result in Compilation Error
 
+
 public class VariableInitialization {
+
 	public static void main(String[] args) {
+
 		Player player = new Player();
 
 		// score is an int member variable - default 0
@@ -20,8 +23,9 @@ public class VariableInitialization {
 		// name is a member reference variable - default null
 		System.out.println(player.name);// null - RULE1
 
-		int local; // not initialized
-		// System.out.println(local);//COMPILER ERROR! RULE3
+		 // not initialized
+		 //int local;
+		//System.out.println(local);//COMPILER ERROR! RULE3
 
 		String value1;// not initialized
 		// System.out.println(value1);//COMPILER ERROR! RULE3

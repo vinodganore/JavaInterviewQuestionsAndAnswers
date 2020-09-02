@@ -13,7 +13,7 @@ public abstract class AbstractClassExample {
 
 	abstract void abstractMethod2();
 
-	// Abstract Class can contain 0 or more non-abstract methods
+	// Abstract Class can contain 0 or more non-abstract/concrete methods
 	public void nonAbstractMethod() {
 		System.out.println("Non Abstract Method");
 	}

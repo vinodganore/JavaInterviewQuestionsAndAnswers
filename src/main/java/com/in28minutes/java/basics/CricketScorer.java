@@ -6,7 +6,7 @@ public class CricketScorer {
 
 	// Behavior - all the methods that are part of the class
 	// An object of this type has behavior based on the
-	// methods four, six and getScore
+	// methods four, six and getScore()
 	public void four() {
 		score = score + 4;
 	}

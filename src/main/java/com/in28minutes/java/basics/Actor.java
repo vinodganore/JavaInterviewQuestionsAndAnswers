@@ -28,5 +28,8 @@ public class Actor {
 
 		Actor tomCruise = new Actor();
 		tomCruise.setName("Tom Cruise");
+
+		System.out.println("Actor-1 : "+bradPitt.getName());
+		System.out.println("Actor-2 : "+tomCruise.getName());
 	}
 }
